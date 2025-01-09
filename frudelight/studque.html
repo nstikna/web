@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Webpage</title>
+        <style>
+            .form-container {
+                display: flex;
+                align-items: center;
+                justify-content: center; /* To center vertically as well */
+                min-height: 100vh; 
+            }
+            form {
+                width: 500px; 
+                border: 2px solid #ccc; 
+                padding: 20px;
+                margin: 0 auto;
+                background: rgb(255, 0, 0);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="form-container">
+        
+
+        <form>
+            <h1>Student Questionare</h1>
+            <label for="student-name">Name : 
+                <input type="text" min="6" placeholder="Enter first name">
+            </label><br><br>
+            <label for="password">password : 
+                <input type="password" min="6" placeholder="password">
+            </label><br><br>
+            <label for="mail">Email : 
+                <input type="email" placeholder="emai_id">
+            </label><br><br>
+            <label for="number">Telephone : 
+                <input type="tel" placeholder="Mobile no">
+            </label><br><br>
+            <label for="Gender"><b>Gender :</b><br>
+                <input type="radio" placeholder="Enter first name">Male<br>
+                <input type="radio" placeholder="Enter first name">Female
+            </label><br><br>
+            <label for="date-of-birth">DOB :
+                <input type="date" placeholder="Mobile no">
+            </label><br><br>
+
+            <label for="Langage"><b>Language Known :</b><br>
+                <input type="checkbox" >C<br>
+                <input type="checkbox">C++<br>
+                <input type="checkbox">Python
+            </label><br><br>
+            <label>HTML SKILL : </label>
+            <input type="range" value="0" min="0" max="100"><br><br>
+            
+            <label for="address">Address:<br>
+                <textarea></textarea>
+            </label><br><br>
+           
+                <input type="submit" placeholder="Mobile no" style="background: #8295f4;">
+                <input type="reset" placeholder="Mobile no" style="background: #8295f4;">
+           
+            </form>
+        </div>
+    </body>
